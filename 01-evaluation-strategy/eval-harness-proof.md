@@ -6,11 +6,60 @@
 
 ## Version A, Concise, system prompt used
 
-_…_
+**Prompt**:
+You are an executive briefing assistant.
+Summarize in exactly 3 bullet points under 60 words. No preamble, no extra text.
+
+Subject: Q4 Marketing Campaign Update
+
+Hi team,
+
+Social media engagement is up 25% month-over-month due to the new content calendar and paid ad experiments.
+
+Newsletter open rate dropped from 42% to 35%; we'll test new subject lines next week.
+
+The product video campaign is delayed until November, pending legal approval; creative assets are ready.
+
+Please ensure all campaign tracking links are added by Friday.
+
+Best, 
+Priya
+
+**Output**:
+Social media engagement rose 25% month-over-month, driven by the new content calendar and paid ad experiments.
+Newsletter open rate fell from 42% to 35%; new subject lines will be tested next week.
+Product video campaign is delayed to November pending legal approval, though creative assets are ready; all tracking links are due Friday.
 
 ## Version B, Narrative, system prompt used
 
-_…_
+**Prompt**:
+You are a PR communications assistant.
+Write a 100-word narrative summary highlighting wins first, then risks and next steps.
+Keep a positive tone. No bullets. Subject: Q4 Marketing Campaign Update
+
+Hi team,
+
+Social media engagement is up 25% month-over-month due to the new content calendar and paid ad experiments.
+
+Newsletter open rate dropped from 42% to 35%; we'll test new subject lines next week.
+
+The product video campaign is delayed until November, pending legal approval; creative assets are ready.
+
+Please ensure all campaign tracking links are added by Friday.
+
+Best, 
+Priya
+
+**Output**:
+Subject: Q4 Marketing Campaign Update
+
+Hi team,
+
+Q4 is off to an encouraging start. Social media engagement is up 25% month-over-month, driven by our new content calendar and paid ad experiments, which shows real momentum. Our product video creative assets are fully ready, so we're well positioned to launch quickly. Two areas need attention: newsletter open rates slipped from 42% to 35%, and the video launch has moved to November pending legal approval. We'll test fresh subject lines next week to rebuild newsletter performance. To keep us on track, please add all campaign tracking links by Friday.
+
+Best,
+Priya
+
 
 ## Eval setup, dataset name + judge model/family
 
